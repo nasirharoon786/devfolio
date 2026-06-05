@@ -66,14 +66,14 @@ function Footer() {
         </p>
         <div className="flex justify-center gap-4 mt-4">
           <a
-            href="https://github.com/nasirharoon"
+            href="https://github.com/nasirharoon786"
             target="_blank"
             className="text-gray-400 hover:text-white"
           >
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/nasir-haroon-a24619163"
+            href="https://www.linkedin.com/in/nasir-haroon-a24619163/"
             target="_blank"
             className="text-gray-400 hover:text-white"
           >

@@ -9,7 +9,7 @@ export const projects = [
     quote:
       "Leading Belgian real estate platform modernized from PHP 5.4 to PHP 8.4 / Symfony, with a custom crawling system reducing manual data entry by 80%.",
     role: "Full Stack Developer — Symfony & Architecture",
-    skills: "Symfony, PostgreSQL, MySQL, Docker, Domain Driven Design, AI Agents (Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot), Prompt Engineering, JIRA",
+    skills: "Symfony, PostgreSQL, MySQL, Docker, Domain Driven Design, AI Agents, Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot, Prompt Engineering, JIRA",
     category: "Web Application",
     technologies: "Symfony, PostgreSQL, MySQL, Docker, Domain Driven Design",
     image: "/assets/Projects/Zimmo/1.png",

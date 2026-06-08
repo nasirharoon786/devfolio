@@ -199,15 +199,15 @@ function Resume() {
 
   const experience = [
     {
-      title: "Software Engineer - Full Stack Developer",
+      title: "Symfony Developer — Zimmo (Belgian Real Estate Platform)",
       years: "02/2023 - Present",
       company: "Zeropoint IT (Pvt.) Ltd., Islamabad, Pakistan",
       items: [
-        "Built and maintained real estate platforms for Belgian clients using Symfony and FastAPI.",
-        "Developed crawlers for 50+ Belgian, French, and Spanish property sources, reducing manual work by 80%.",
-        "Created and integrated micro-service APIs to streamline data flow across the platform.",
-        "Integrated AI-augmented workflows and advanced prompt engineering to accelerate development and testing.",
-        "Ensured 99.9% up-time and high data accuracy for production systems over 18 months.",
+        "Migrated Zimmo's legacy portal from PHP 5.4 to PHP 8.4 with the latest Symfony framework, collaborating with the Zimmo engineering team.",
+        "Architected and built a modern Symfony-based crawling system for automated data collection from 50+ property sources, reducing manual data entry by 80%.",
+        "Applied Domain-Driven Design (DDD) principles for clean, maintainable, and scalable architecture.",
+        "Leveraged AI agent workflows (Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot) to accelerate development.",
+        "Ensured 99.9% up-time and high data accuracy for production systems serving users across Belgium, France, and Spain.",
       ],
     },
     {
@@ -540,8 +540,8 @@ function Testimonials() {
   const testimonials = [
     {
       name: "Zeropoint IT",
-      role: "Current Employer",
-      text: "Nasir built and maintained real estate platforms for our Belgian clients using Symfony and FastAPI. His crawlers for 50+ property sources reduced manual work by 80%. A true asset to our engineering team.",
+      role: "Current Employer — Zimmo Project",
+      text: "Nasir led the modernization of our Zimmo real estate platform from PHP 5.4 to PHP 8.4 with Symfony. His Symfony-based crawling system for 50+ property sources and DDD architecture made a significant impact on our engineering team's productivity.",
     },
     {
       name: "Syslab Technologies",

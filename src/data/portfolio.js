@@ -1,5 +1,28 @@
 export const projects = [
   {
+    slug: "zimmo",
+    title: "Zimmo — Belgian Real Estate Platform",
+    description:
+      "Zimmo is Belgium's leading real estate platform connecting buyers, sellers, and agents across the country. I collaborated closely with the Zimmo engineering team to modernize their legacy codebase, migrating the portal from PHP 5.4 to PHP 8.4 with the latest Symfony framework. I architected and built a modern Symfony-based crawling system for automated data collection from 50+ property sources, dramatically reducing manual data entry. The project followed Domain-Driven Design (DDD) principles to ensure clean, maintainable, and scalable architecture.",
+    description2:
+      "This modernization improved performance, security, and maintainability of the platform serving thousands of users across Belgium, France, and Spain.",
+    quote:
+      "Leading Belgian real estate platform modernized from PHP 5.4 to PHP 8.4 / Symfony, with a custom crawling system reducing manual data entry by 80%.",
+    role: "Full Stack Developer — Symfony & Architecture",
+    skills: "Symfony, PostgreSQL, MySQL, Docker, DDD (Domain Driven Design), AI Agents (Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot), Prompt Engineering, JIRA",
+    category: "Web Application",
+    technologies: "Symfony, PostgreSQL, MySQL, Docker, DDD",
+    image: "/assets/Projects/Zimmo/Screenshot from 2026-06-08 18-26-00.png",
+    images: [
+      "/assets/Projects/Zimmo/Screenshot from 2026-06-08 18-26-00.png",
+      "/assets/Projects/Zimmo/Screenshot from 2026-06-08 18-26-13.png",
+      "/assets/Projects/Zimmo/Screenshot from 2026-06-08 18-26-30.png",
+      "/assets/Projects/Zimmo/Screenshot from 2026-06-08 18-27-21.png",
+      "/assets/Projects/Zimmo/Screenshot from 2026-06-08 18-28-31.png",
+    ],
+    url: "https://www.zimmo.be/",
+  },
+  {
     slug: "sdg3-pakistan",
     title: "SDG3 Pakistan",
     description:

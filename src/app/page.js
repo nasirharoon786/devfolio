@@ -204,7 +204,7 @@ function Resume() {
       company: "Zeropoint IT (Pvt.) Ltd., Islamabad, Pakistan",
       items: [
         "Migrated Zimmo's legacy portal from PHP 5.4 to PHP 8.4 with the latest Symfony framework, collaborating with the Zimmo engineering team.",
-        "Architected and built a modern Symfony-based crawling system for automated data collection from 50+ property sources, reducing manual data entry by 80%.",
+        "Architected and built a Symfony and Python-based crawling system using Scrapy with FastAPI microservices for automated data collection from 50+ property sources, reducing manual data entry by 80%.",
         "Applied Domain-Driven Design (DDD) principles for clean, maintainable, and scalable architecture.",
         "Leveraged AI agent workflows (Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot) to accelerate development.",
         "Ensured 99.9% up-time and high data accuracy for production systems serving users across Belgium, France, and Spain.",

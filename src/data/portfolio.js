@@ -3,15 +3,15 @@ export const projects = [
     slug: "zimmo",
     title: "Zimmo — Belgian Real Estate Platform",
     description:
-      "Zimmo is Belgium's leading real estate platform connecting buyers, sellers, and agents across the country. I collaborated closely with the Zimmo engineering team to modernize their legacy codebase, migrating the portal from PHP 5.4 to PHP 8.4 with the latest Symfony framework. I architected and built a modern Symfony-based crawling system for automated data collection from 50+ property sources, dramatically reducing manual data entry. The project followed Domain-Driven Design (DDD) principles to ensure clean, maintainable, and scalable architecture.",
+      "Zimmo is Belgium's leading real estate platform connecting buyers, sellers, and agents across the country. I collaborated closely with the Zimmo engineering team to modernize their legacy codebase, migrating the portal from PHP 5.4 to PHP 8.4 with the latest Symfony framework. I architected and built a modern Symfony and Python-based crawling system using Scrapy for automated data collection from 50+ property sources, with FastAPI microservices powering the data pipeline — dramatically reducing manual data entry. The project followed Domain-Driven Design (DDD) principles to ensure clean, maintainable, and scalable architecture.",
     description2:
-      "This modernization improved performance, security, and maintainability of the platform serving thousands of users across Belgium, France, and Spain.",
+      "This modernization improved performance, security, and maintainability of the platform serving thousands of users across Belgium, France, and Spain. The Python-based scraping system using Scrapy and FastAPI handles data ingestion from 50+ property sources in real-time.",
     quote:
-      "Leading Belgian real estate platform modernized from PHP 5.4 to PHP 8.4 / Symfony, with a custom crawling system reducing manual data entry by 80%.",
+      "Leading Belgian real estate platform modernized from PHP 5.4 to PHP 8.4 / Symfony with a Python-based scraping system using Scrapy and FastAPI, reducing manual data entry by 80%.",
     role: "Full Stack Developer — Symfony & Architecture",
-    skills: "Symfony, PostgreSQL, MySQL, Docker, Domain Driven Design, AI Agents, Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot, CI/CD, Prompt Engineering, JIRA",
+    skills: "Symfony, FastAPI, Scrapy, PostgreSQL, MySQL, Docker, Domain Driven Design, AI Agents, Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot, CI/CD, Prompt Engineering, JIRA",
     category: "Web Application",
-    technologies: "Symfony, PostgreSQL, MySQL, Docker, Domain Driven Design, CI/CD",
+    technologies: "Symfony, FastAPI, Scrapy, PostgreSQL, MySQL, Docker, Domain Driven Design, CI/CD",
     image: "/assets/Projects/Zimmo/1.png",
     images: [
       "/assets/Projects/Zimmo/1.png",

@@ -92,10 +92,12 @@ function Hero() {
 
 function About() {
   const skills = [
-    { name: "PHP / Laravel / Symfony", val: 95 },
-    { name: "JavaScript / React / Vue / TypeScript", val: 85 },
-    { name: "Python / FastAPI / Scrapy", val: 80 },
+    { name: "PHP (Laravel / Symfony / CodeIgniter)", val: 95 },
+    { name: "JavaScript (React / Vue / TypeScript)", val: 85 },
+    { name: "Python (FastAPI / Scrapy)", val: 80 },
     { name: "PostgreSQL / MySQL / MongoDB", val: 90 },
+    { name: "LAMP Stack (Linux / Apache / MySQL / PHP)", val: 90 },
+    { name: "Web Security (OWASP / CSRF / Auth)", val: 85 },
   ];
 
   return (
@@ -148,10 +150,11 @@ function About() {
             <h4 className="text-xl font-semibold mb-4">About me</h4>
             <p className="text-gray-600 mb-3">
               Full Stack Developer with 5+ years of experience engineering
-              scalable web applications using PHP (Laravel, Symfony, Core PHP),
-              JavaScript (React, Vue), and Python (FastAPI). Adept at designing
-              RESTful APIs, optimizing databases, and implementing secure,
-              production-ready architectures.
+              scalable web applications on the LAMP stack (Linux, Apache, MySQL,
+              PHP) with Laravel, Symfony, React, Vue.js, and Python (FastAPI).
+              Expert in RESTful API design, web application security (OWASP, SQL
+              injection prevention, input validation), and deploying
+              production-ready architectures on Linux/Apache servers.
             </p>
             <p className="text-gray-600 mb-3">
               Leverages AI-augmented development workflows, including spec-driven
@@ -175,7 +178,7 @@ function About() {
 function Resume() {
   const education = [
     {
-      degree: "Bachelors of Science in Information Technology",
+      degree: "Bachelor of Science in Information Technology",
       years: "10/2017 - 08/2021",
       school: "PMAS Arid Agricultural University, Rawalpindi",
       desc: "Bachelor's degree in Information Technology with focus on software development and web technologies.",
@@ -191,46 +194,54 @@ function Resume() {
     },
     {
       name: "Web Designing & Development",
-      date: "2017",
+      date: "04/2017 - 09/2017",
       org: "TEVTA Punjab Board Lahore",
-      desc: "Professional certification in web design and development.",
+      desc: "Foundational course covering HTML, CSS, JavaScript, and UI/UX principles with hands-on project work.",
     },
   ];
 
   const experience = [
     {
-      title: "Symfony Developer — Zimmo (Belgian Real Estate Platform)",
+      title: "Software Engineer — Full Stack Developer",
       years: "02/2023 - Present",
-      company: "Zeropoint IT (Pvt.) Ltd., Islamabad, Pakistan",
+      company: "Zeropoint.IT (Pvt.) Ltd., Islamabad, Pakistan",
       items: [
-        "Migrated Zimmo's legacy portal from PHP 5.4 to PHP 8.4 with the latest Symfony framework, collaborating with the Zimmo engineering team.",
-        "Architected and built a Symfony and Python-based crawling system using Scrapy with FastAPI microservices for automated data collection from 50+ property sources, reducing manual data entry by 80%.",
-        "Applied Domain-Driven Design (DDD) principles for clean, maintainable, and scalable architecture.",
-        "Leveraged AI agent workflows (Codex, Gemini CLI, Claude Code, OpenCode, GitHub Copilot) to accelerate development.",
-        "Ensured 99.9% up-time and high data accuracy for production systems serving users across Belgium, France, and Spain.",
+        "Built and maintained real estate platforms for Belgian clients using Symfony and FastAPI on Linux/Apache.",
+        "Developed crawlers for 50+ Belgian, French & Spanish property sources, reducing manual work by 80%.",
+        "Created and integrated micro-service APIs to streamline data flow across the LAMP stack platform.",
+        "Implemented OWASP security: input validation, SQL injection prevention & secure API authentication.",
+        "Leveraged AI coding copilots and prompt engineering for rapid prototyping and faster SaaS feature delivery.",
+        "Ensured 99.9% uptime across SaaS production systems, maintaining high data accuracy over 18 months.",
+        "Migrated legacy Core PHP 5.4 systems to PHP 8.4 using modern Laravel and Symfony frameworks.",
+        "Managed CI/CD pipelines and GitLab deployment workflows for automated testing and release processes.",
+        "Implemented RabbitMQ and Laravel queues for async background job processing and event-driven workflows.",
       ],
     },
     {
-      title: "Software Engineer - Laravel Developer",
+      title: "Software Engineer — Laravel Developer",
       years: "05/2023 - 02/2024",
       company: "Syslab Technologies Sdn Bhd, Cyberjaya, Malaysia",
       items: [
-        "Successfully delivered and collaborated in a fully remote environment, ensuring timely project deliveries.",
-        "Led backend development for web applications using Laravel and CodeIgniter, serving 5k+ monthly active users.",
-        "Optimized MySQL queries for fast search across listings, reducing average page load time by 40%.",
-        "Built RESTful APIs with token-based authentication, integrated with React front-end teams.",
+        "Led Laravel backend development (Eloquent ORM, migrations, middleware, service providers) for 5k+ monthly users.",
+        "Designed service classes and repository pattern for clean, maintainable and testable codebase architecture.",
+        "Implemented OAuth 2.0, Laravel Sanctum and role-based permissions for secure API auth and authorization.",
+        "Integrated third-party payment gateways, email/SMS providers and external APIs into backend workflows.",
+        "Optimized MySQL queries, indexing and relationships, reducing average page load time by 40%.",
+        "Built RESTful APIs with token-based auth on Linux/Apache, integrated with React front-end teams.",
+        "Applied CSRF protection and secure session handling across all application endpoints.",
         "Mentored 4 junior developers on code structure, testing, and deployment best practices.",
       ],
     },
     {
-      title: "Software Engineer - PHP Developer",
+      title: "Software Engineer — PHP Developer",
       years: "11/2021 - 06/2023",
       company: "MicroMerger Pvt. Ltd., Islamabad, Pakistan",
       items: [
-        "Developed and maintained enterprise-level web platforms using PHP 8, Laravel, and CodeIgniter.",
-        "Migrated legacy system to modern architectures, improving maintainability and reducing bug reports by 70%.",
+        "Developed enterprise-level platforms using PHP 8, Laravel and CodeIgniter on Linux/Apache infrastructure.",
+        "Migrated legacy systems to modern LAMP stack architecture, reducing bug reports by 70%.",
+        "Enforced input sanitization and parameterized queries on government health dashboards.",
         "Integrated PostgreSQL with geospatial features for government health dashboards.",
-        "Automated data processing workflows using queues and cron jobs, saving 15+ hours/week in manual operations.",
+        "Automated data processing with cron jobs on Linux servers, saving 15+ hours/week.",
       ],
     },
     {
@@ -238,10 +249,10 @@ function Resume() {
       years: "01/2021 - 11/2021",
       company: "Pace Technologies (Pvt.) Ltd., Islamabad, Pakistan",
       items: [
-        "Contributed to full-stack projects using Laravel, CodeIgniter, and React.js.",
-        "Built secure REST APIs for mobile app integration, handling 2k+ concurrent requests.",
+        "Contributed to full-stack projects using Laravel, React.js and Next.js on LAMP stack environments.",
+        "Built secure REST APIs for mobile app integration, handling 2k+ concurrent requests on Linux/Apache.",
         "Designed database schema optimizations that improved report generation speed by 3x.",
-        "Collaborated with QA team to implement automated testing, reducing post-release bugs by 70%.",
+        "Implemented automated testing with QA team, reducing post-release bugs by 70%.",
       ],
     },
   ];
@@ -252,8 +263,8 @@ function Resume() {
         <div className="section-title text-center mb-12">
           <h2>Resume</h2>
           <p className="text-gray-500 mt-4">
-            Full Stack Developer with 5+ years of experience in PHP, Symfony,
-            Laravel, React, and FastAPI
+            Full Stack Developer with 5+ years of experience in PHP, Laravel,
+            Symfony, React, FastAPI, and the LAMP stack
           </p>
         </div>
 
@@ -264,8 +275,12 @@ function Resume() {
               <h4>Nasir Haroon</h4>
               <p className="text-gray-600 text-sm italic mb-3">
                 Full Stack Developer with 5+ years of experience engineering
-                scalable web applications using PHP (Laravel, Symfony, Core PHP),
-                JavaScript (React, Vue), and Python (FastAPI).
+                scalable web applications on the LAMP stack (Linux, Apache,
+                MySQL, PHP) with Laravel, Symfony, React, Vue.js, and Python
+                (FastAPI). Expert in RESTful API design, web application
+                security (OWASP, SQL injection prevention, input validation),
+                and deploying production-ready architectures on Linux/Apache
+                servers.
               </p>
               <ul className="text-sm text-gray-600 list-disc list-inside space-y-1">
                 <li>House No 430/B, Railway Loco Colony Westridge, Rawalpindi</li>
@@ -298,7 +313,7 @@ function Resume() {
             <div className="resume-item">
               <ul className="list-disc list-inside text-sm text-gray-600 space-y-1">
                 <li>
-                  <strong>English</strong> - Proficient (C2)
+                  <strong>English</strong> - Fluent (C2 — Listening, Reading, Speaking, Writing)
                 </li>
                 <li>
                   <strong>Urdu</strong> - Native

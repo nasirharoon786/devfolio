@@ -77,7 +77,7 @@ function Footer() {
             GitHub
           </a>
           <a
-            href="https://www.linkedin.com/in/nasir-haroon-a24619163/"
+            href="https://www.linkedin.com/in/nasirharoon786"
             target="_blank"
             className="text-gray-400 hover:text-white"
           >

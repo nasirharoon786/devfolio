@@ -32,7 +32,7 @@ export const projects = [
     quote:
       "A digital platform promoting health and well-being in alignment with the UN's Sustainable Development Goal 3, supporting evidence-based policy-making across Pakistan.",
     role: "Full Stack Developer",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, JIRA, JavaScript",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, JavaScript",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL, JavaScript",
     image: "/assets/Projects/SDG3/1.png",
@@ -77,7 +77,7 @@ export const projects = [
     quote:
       "A leading job portal connecting professionals with top employers in Pakistan, featuring advanced job search, real-time notifications, and secure authentication.",
     role: "Full Stack Developer",
-    skills: "Laravel, jQuery, Ajax, Bootstrap, HTML, CSS, JavaScript, MySQL, Trello, Jira",
+    skills: "Laravel, jQuery, Ajax, Bootstrap, HTML, CSS, JavaScript, MySQL, Jira",
     category: "Web Application",
     technologies: "Laravel, JavaScript, MySQL",
     image: "/assets/Projects/XpertJobs/1.png",
@@ -99,7 +99,7 @@ export const projects = [
     quote:
       "Provincial immunization MIS recording vaccination data across Punjab through a hierarchical structure from Facility to District level.",
     role: "Full Stack Developer - Team Lead",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Cross Functional Team Leadership, GitHub, Trello, Jira",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Cross Functional Team Leadership, GitHub, Jira",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL",
     image: "/assets/Projects/EPI Punjab/4.png",
@@ -125,7 +125,7 @@ export const projects = [
     quote:
       "Provincial immunization MIS tailored for Sindh's healthcare infrastructure, enabling efficient vaccination tracking from facility to district level.",
     role: "Full Stack Developer",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub, Jira",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL",
     image:
@@ -152,7 +152,7 @@ export const projects = [
     quote:
       "Provincial immunization MIS designed for Balochistan's unique geographical landscape, enabling vaccination tracking from remote facilities to district level.",
     role: "Full Stack Developer",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub, Jira",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, GitHub, Jira",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL",
     image: "/assets/Projects/EPI Balochistan/1.png",
@@ -178,7 +178,7 @@ export const projects = [
     quote:
       "Provincial immunization MIS for Khyber Pakhtunkhwa with customized reporting and real-time vaccination monitoring dashboards.",
     role: "Full Stack Developer",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub, Jira",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL",
     image: "/assets/Projects/EPI KPK/1.png",
@@ -203,7 +203,7 @@ export const projects = [
     quote:
       "Provincial immunization MIS tailored for Gilgit-Baltistan's mountainous terrain, enabling vaccination tracking in remote areas.",
     role: "Full Stack Developer",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub, Jira",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, GitHub, Jira",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL",
     image: "/assets/Projects/EPI GB/1.png",
@@ -227,7 +227,7 @@ export const projects = [
     quote:
       "Provincial immunization MIS for Azad Jammu and Kashmir with real-time dashboards for vaccination coverage monitoring.",
     role: "Full Stack Developer",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub, Jira",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL",
     image: "/assets/Projects/EPI AJK/1.png",
@@ -251,7 +251,7 @@ export const projects = [
     quote:
       "Federal territory immunization MIS for Islamabad Capital Territory with real-time monitoring and comprehensive vaccination tracking.",
     role: "Full Stack Developer",
-    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, Trello, GitHub, Jira",
+    skills: "CodeIgniter, PostgreSQL, jQuery, Ajax, Bootstrap, HTML, CSS, GitHub, Jira",
     category: "Web Application",
     technologies: "CodeIgniter, PostgreSQL",
     image: "/assets/Projects/EPI Islamabad/1.png",

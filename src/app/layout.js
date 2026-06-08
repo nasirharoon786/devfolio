@@ -61,8 +61,12 @@ function Footer() {
   return (
     <footer className="bg-[#040b14] text-white py-8">
       <div className="max-w-6xl mx-auto px-4 text-center">
-        <p>
-          &copy; Copyright <strong>Nasir Haroon</strong> All Rights Reserved
+        <p className="text-lg font-semibold">
+          Crafted with <span className="text-red-400">&hearts;</span> by{" "}
+          <span className="text-[#0078ff]">Nasir Haroon</span>
+        </p>
+        <p className="text-sm text-gray-500 mt-1">
+          &copy; {new Date().getFullYear()} All rights reserved.
         </p>
         <div className="flex justify-center gap-4 mt-4">
           <a
@@ -86,9 +90,6 @@ function Footer() {
             Email
           </a>
         </div>
-        <p className="text-sm text-gray-500 mt-4">
-          Designed by BootstrapMade | Customized by Nasir Haroon
-        </p>
       </div>
     </footer>
   );
